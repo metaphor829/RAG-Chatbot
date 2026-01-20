@@ -1,7 +1,5 @@
 # RAG-Chatbot
 
-[Badges: Python 3.10 | License: MIT | LlamaIndex]
-
 ## 概要
 本プロジェクトは、専門領域の文書（PDF/Excel/Docs）を対象にした高精度RAG基盤です。  
 Docling によるレイアウト解析と、BGE 系モデルによる検索精度の最大化を前提に設計しています。
