@@ -5,7 +5,7 @@
 Docling によるレイアウト解析と、BGE 系モデルによる検索精度の最大化を前提に設計しています。
 
 ## デモ (Demo)
-![demo](assets/ragchatbot.gif)
+<img src="assets/ragchatbot.gif" alt="demo" width="720">
 
 ## 主な機能
 - **高度な文書解析**: Docling により見出し階層・段落構造を保持。
