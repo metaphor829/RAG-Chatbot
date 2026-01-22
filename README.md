@@ -5,7 +5,9 @@
 Docling によるレイアウト解析と、BGE 系モデルによる検索精度の最大化を前提に設計しています。
 
 ## デモ (Demo)
-<img src="assets/ragchatbot.gif" alt="demo" width="720">
+<p align="center">
+  <img src="assets/ragchatbot.gif" alt="demo" width="640">
+</p>
 
 ## 主な機能
 - **高度な文書解析**: Docling により見出し階層・段落構造を保持。
@@ -28,6 +30,8 @@ graph LR
   DOCS[Documents Folder] --> DOC[Docling Parser]
   DOC --> IDX[LlamaIndex]
   IDX --> VDB[(Vector Store)]
+  VDB --> RR[BGE Reranker]
+  RR --> API
   API --> LLM[GPT-4o]
 ```
 
